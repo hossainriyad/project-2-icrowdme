@@ -1,0 +1,479 @@
+/*====================
+  GOOGLE FONT LINK UP
+======================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700&display=swap');
+
+/*====================
+   GLOBAL CSS       
+======================*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+li {
+    list-style: none;
+}
+a, a:hover {
+    text-decoration:none;
+}
+.pb-80 {
+    padding-bottom:80px;
+}
+.custom-btn {
+    display:inline-block;
+    font-size: 14px;
+    font-weight:600;
+    text-transform: uppercase;
+    color:#fff;
+    padding:10px 25px;
+    background: #bcda5c;
+    border:1px solid #bcda5c;
+    border-radius:30px;
+    transition: all 0.4s ease-in-out;
+}
+button:focus {
+    outline: none;
+}
+
+/*====================
+  HEADER SECTION CSS
+======================*/
+.header-section {
+    padding:20px 0px;
+    background: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color:#666;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+    opacity:0.67;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(143, 198, 61);
+}
+.header-btn a.custom-btn:hover, .banner-content a.banner-btn:hover {
+    background:#666;
+    color:#fff;
+    border:1px solid #666;
+}
+
+
+/*====================
+  BANNER SECTION CSS
+======================*/
+.banner-section {
+    background:url('../images/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-section .row {
+    min-height:87vh;
+    align-items: center;
+    text-align: center;
+}
+.banner-content h2 {
+    font-size: 48px;
+    font-weight:600;
+    color: #fff;
+}
+.banner-content p {
+    font-size: 32px;
+    color: #fff;
+    font-weight:300;
+}
+.banner-content a.banner-btn {
+    margin-top: 35px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background:#99c50a;
+    border:1px solid #99c50a;
+}
+
+
+/*====================
+  ABOUT SECTION CSS
+======================*/
+.about-section {
+    padding-top:80px;
+}
+.about-content h2 {
+    font-size: 32px;
+    font-weight:600;
+    color: #515151;
+    text-transform: uppercase;
+    line-height:1.6;
+    padding:50px 0 40px;
+}
+.about-content p {
+    font-size: 18px;
+    color: rgba(81, 81, 81, 0.71);
+    line-height: 1.6;
+    max-width: 900px;
+    margin: auto;
+}
+.about-content p.para2{
+    padding-top: 20px;
+}
+
+
+/*====================
+  FEATURE/TAB SECTION CSS
+======================*/
+
+.feature-content .nav-tabs {
+    border-bottom: none;
+}
+.feature-content .nav-tabs .nav-link {
+    border: 0;
+    padding-bottom: 30px;
+    color: #656565;
+    font-size: 34px;
+    font-weight: 300;
+    border-bottom:1px solid #e6e6e6;
+}
+.feature-content .nav-tabs .nav-link.active {
+    border-bottom: 1px solid #add136;
+}
+.number {
+    display:inline-block;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 28px;
+    font-weight:600;
+    border-radius:50%;
+    background:#5f5f5f;
+    color:#fff;
+    margin-right: 25px;
+}
+.feature-content .nav-tabs .nav-link.active .number {
+    background:#add136;
+}
+.tab-content {
+    margin-top: 40px;
+}
+.tab-content .row {
+    align-items: center;
+}
+.f-image {
+    text-align: center;
+}
+.f-content {}
+.f-content h3 {
+    font-size: 24px;
+    color: #add136;
+    padding-bottom:10px;
+}
+.f-content p {
+    font-size:18px;
+    color:#606060;
+    opacity: 0.67;
+    line-height: 1.6;
+    font-weight:300;
+}
+
+
+/*====================
+  SERVICE SECTION CSS
+======================*/
+.service-section {
+    overflow: hidden;
+}
+.property-bg {
+    background:#e2f8ff;
+    min-height: 300px;
+    width: 50%;
+    float: left;
+    padding: 45px 70px 0 0;
+}
+.buyer-bg {
+    min-height: 300px;
+    background: #f5f9eb;
+    width: 50%;
+    float: left;
+    padding: 45px 0 0px 70px;
+}
+.property-box {
+    max-width: 500px;
+    float: right;
+}
+.buyer-box {
+    max-width: 500px;
+    float: left;
+}
+.service-image {
+    width: 40%;
+    float: left;
+    padding-top: 40px;
+}
+.service-content {
+    width: 60%;
+    float: left;
+}
+.service-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 24px;
+    color:#515151;
+}
+.service-content p {
+    font-size: 18px;
+    color:rgba(81, 81, 81, 0.67);
+    padding:15px 0;
+}
+.service-content a.properties-btn, .service-content a.buyer-btn {
+    background:#26a6d1;
+    border:1px solid #26a6d1;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+}
+.service-content a.buyer-btn {
+    background: #add136;
+    border:1px solid #add136;
+}
+.service-content a.buyer-btn:hover {
+    background:#26a6d1;
+    border:1px solid #26a6d1;
+    color:#fff;
+}
+.service-content a.properties-btn:hover {
+    background: #add136;
+    border:1px solid #add136;
+    color:#fff;
+}
+
+/*====================
+  PROJECT SECTION CSS
+======================*/
+.project-first-section {
+    padding-bottom:50px;
+}
+.project-first-section .row {
+    align-items: center;
+}
+.project-content h4 {
+    font-size:30px;
+    font-weight:600;
+    color:#515151;
+    padding-bottom:10px;
+}
+.project-content p {
+    font-size: 18px;
+    color:#8f8f8f;
+}
+.project-btn a.custom-btn {
+    background:transparent;
+    float: right;
+    border:1px solid #515151b5;
+    color: #515151b5;
+    border-radius: 4px;
+}
+.project-btn a.custom-btn:hover {
+    background:#666;
+    border: 1px solid #666;
+    color:#fff;
+}
+.project-image {
+    position:relative;
+    overflow: hidden;
+}
+.project-image img {
+    width: 100%;
+}
+.project-image .new {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #add136;
+    padding: 25px 35px 10px;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: -37px;
+    transform: rotate(-45deg);
+}
+.project-image .price {
+    font-size:18px;
+    font-weight:700;
+    color:#fff;
+    background:#26a6d1;
+    padding:8px;
+    border-radius:5px;
+    display:inline-block;
+    position:absolute;
+    right:15px;
+    bottom:20px;
+}
+.project-image .price span {
+    font-weight:400;
+}
+.project-content-box .project-box {
+    border:1px solid #e5e5e5;
+    border-top: none;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    padding:20px;
+}
+.project-box h5 {
+    font-size: 18px;
+    font-weight:700;
+    color:#484848;
+}
+.project-box p {
+    font-size:14px;
+    color:#484848;
+    opacity:0.71;
+    line-height: 1.8;
+}
+.project-box .progress {
+    background: #e3e3e3;
+    border-radius: 20px;
+}
+.project-box .progress .progress-bar {
+    background: #add136;
+}
+.project-box .row {
+    padding:15px 0px;
+}
+.project-box h4.fund, .project-box h4.time {
+    font-size:14px;
+    font-weight:600;
+    color:#8d8d8d;
+} 
+.project-box h4.time {
+    float: right;
+} 
+.project-details {
+    padding-top:20px;
+    border-top: 1px solid #d6d6d6;
+} 
+.project-details a {
+    font-size: 16px;
+    color: #484848;
+    font-weight: 600;
+    opacity: 0.85;
+    text-align: right;
+    display: block;
+    transition: all 0.4s ease-in-out;
+} 
+.project-details a span {
+    color: #add136;
+    font-size: 22px;
+    vertical-align: middle;
+    padding-left: 8px;
+} 
+.project-details a:hover {
+    color: #add136;
+}
+
+
+/*=============================
+  CLIENT COMMUNITY SECTION CSS
+===============================*/
+
+.client-section {
+    background:url('../images/client-bg.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding:60px 0px;
+}
+.client-heading h3 {
+    font-size: 40px;
+    font-weight:600;
+    color:#9ec02d;
+    padding-bottom:20px;
+}
+.client-heading p {
+    font-size:20px;
+    color: #949494;
+    line-height:1.7;
+    max-width:970px;
+    margin:auto;
+}
+.client-content-section {
+    padding-top: 65px;
+}
+.client-content-section .row {
+    justify-content:space-between;
+}
+.client-box {
+    position: relative;
+}
+.client-content {
+    padding:25px 40px 5px;
+    border:1px solid #fff;
+    background:#fff;
+    border-radius:10px;
+    box-shadow: 0 0 5px 3px #e0e0e0;
+}
+.client-content h3 {
+    font-size:22px;
+    color:#9ec02d;
+    font-weight: 600;
+}
+.client-content p {
+    font-size:14px;
+    color:#848484;
+    line-height: 1.8;
+}
+.client-box .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 0 0;
+    border-color: #fff transparent transparent transparent;
+    position:absolute;
+    left:85px;
+    bottom:-25px;
+}
+.client-bio {
+    padding:30px 0 0 50px;
+}
+.client-bio h5 {
+    font-size: 16px;
+    font-weight:600;
+    color: #494949;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:15px;
+    display: inline-block;
+}
+
+
+/*====================
+  TESTIMONIAL SECTION CSS
+======================*/
+.testimonial-section {
+    padding:40px 0;
+}
+.testimonial-content a {
+    display: inline-block;
+    margin-right:70px;
+}
+.testimonial-content a:last-child {
+    margin-right:0px;
+}
+
+
+/*====================
+  FOOTER SECTION CSS
+======================*/
+.footer-section {
+    border-top:1px solid #ededed;
+    padding:22px 0;
+}
+.footer-content p, .footer-content p a {
+    font-size:14px;
+    color:#848484;
+    margin:0;
+}
+.footer-content p a:hover {
+    color:#9ec02d;
+}

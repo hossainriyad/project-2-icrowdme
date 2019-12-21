@@ -1,0 +1,308 @@
+/*Extra small devices (portrait phones, less than 320px)*/
+@media (max-width:320px) {
+    .navbar-nav {
+        padding-left: 10px;
+    }
+    .navbar-toggler {
+        margin: 5px 10px 0 0;
+    }
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .header-btn {
+        display: none;
+    }
+    .banner-content h2 {
+        font-size: 36px;
+    }
+    .banner-content p {
+        font-size: 24px;
+    }
+    .about-content h2 {
+        font-size: 20px;
+        padding:25px 0;
+    }
+    .about-content p {
+        font-size: 16px;
+    }
+    .feature-content .nav-tabs .nav-link {
+        font-size: 20px;
+        padding:20px 0;
+    }
+    .number {
+        margin-right:10px;
+        font-size:20px;
+    }
+    .f-image {
+        margin-bottom: 30px;
+    }
+    .f-content {
+        text-align: center;
+    }
+    .f-content h3 {
+        font-size: 18px;
+    }
+    .f-content p {
+        font-size: 16px;
+    }
+    .property-bg, .buyer-bg {
+        padding:30px;
+        float: none;
+        width: 100%;
+        min-height:auto;
+    }
+    .property-box, .buyer-box {
+        float: none;
+        max-width: initial;
+        overflow: hidden;
+        text-align: center;
+    }
+    .service-image {
+        width:100%;
+        padding-top:0;
+    }
+    .service-content {
+        margin-top:10%;
+        width:100%;
+    }
+    .project-first-section {
+        text-align: center;
+    }
+    .project-btn a.custom-btn {
+        float: none;
+    }
+    .project-content p {
+        font-size: 16px;
+    }
+    .project-image .price {
+        font-size: 16px;
+    }
+    .client-heading h3 {
+        font-size:28px;
+    }
+    .client-heading p {
+        font-size: 16px;
+    }
+    .margintop50 {
+        margin-top:50px;
+    }
+    .testimonial-content a {
+        margin-top: 30px;
+    }
+}
+
+/*Extra small devices (portrait phones, 321px and up)*/
+@media (min-width:321px) and (max-width: 575.98px) {
+    .navbar-nav {
+        padding-left: 10px;
+    }
+    .navbar-toggler {
+        margin: 5px 10px 0 0;
+    }
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .header-btn {
+        display: none;
+    }
+    .banner-content h2 {
+        font-size: 36px;
+    }
+    .banner-content p {
+        font-size: 24px;
+    }
+    .about-content h2 {
+        font-size: 20px;
+        padding:25px 0;
+    }
+    .about-content p {
+        font-size: 16px;
+    }
+    .feature-content .nav-tabs .nav-link {
+        font-size: 20px;
+        padding:20px 0;
+    }
+    .number {
+        margin-right:10px;
+        font-size:20px;
+    }
+    .f-image {
+        margin-bottom: 30px;
+    }
+    .f-content {
+        text-align: center;
+    }
+    .f-content h3 {
+        font-size: 18px;
+    }
+    .f-content p {
+        font-size: 16px;
+    }
+    
+    .property-bg, .buyer-bg {
+        padding:30px;
+        float: none;
+        width: 100%;
+        min-height:auto;
+    }
+    .property-box, .buyer-box {
+        float: none;
+        max-width: initial;
+        overflow: hidden;
+        text-align: center;
+    }
+    .service-image {
+        width:100%;
+        padding-top:0;
+    }
+    .service-content {
+        margin-top:10%;
+        width:100%;
+    }
+    .project-first-section {
+        text-align: center;
+    }
+    .project-btn a.custom-btn {
+        float: none;
+    }
+    .project-content p {
+        font-size: 16px;
+    }
+    .project-image .price {
+        font-size: 16px;
+    }
+    .client-heading h3 {
+        font-size:28px;
+    }
+    .client-heading p {
+        font-size: 16px;
+    }
+    .margintop50 {
+        margin-top:50px;
+    }
+    .testimonial-content a {
+        margin-top: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-btn {
+        display: none;
+    }
+    .about-content h2 {
+        font-size: 28px;
+    }
+    .feature-content .nav-tabs .nav-link {
+        font-size: 20px;
+        padding:20px 0;
+    }
+    .number {
+        margin-right:10px;
+        font-size:20px;
+    }
+    .f-content h3 {
+        font-size: 18px;
+    }
+    .f-content p {
+        font-size: 16px;
+    }
+    .property-bg, .buyer-bg {
+        padding:50px;
+        float: none;
+        width: 100%;
+        min-height: 320px;
+    }
+    .property-box, .buyer-box {
+        float: none;
+        max-width: initial;
+        overflow: hidden;
+    }
+    .service-image {
+        width:35%;
+        text-align: right;
+    }
+    .service-content {
+        margin-left:10%;
+        width: 55%;
+    }
+    .project-section .row {
+        justify-content: center;
+    }
+    .project-first-section {
+        text-align: center;
+    }
+    .project-btn a.custom-btn {
+        float: none;
+    }
+    .client-heading h3 {
+        font-size:28px;
+    }
+    .client-heading p {
+        font-size: 16px;
+    }
+    .margintop50 {
+        margin-top:50px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-btn {
+        display: none;
+    }
+    .feature-content .nav-tabs .nav-link {
+        font-size: 28px;
+    }
+    .number {
+        margin-right:15px;
+    }
+    .f-content h3 {
+        font-size: 21px;
+    }
+    .f-content p {
+        font-size: 17px;
+    }
+    .property-bg {
+        padding:30px 20px 30px 10px;
+    }
+    .buyer-bg {
+        padding:30px 10px 30px 20px;
+    }
+    .service-content h4 {
+        font-size:20px;
+    }
+    .service-content p {
+        font-size:16px;
+    }
+    .project-content h4 {
+        font-size: 28px;
+    }
+    .project-content p {
+        font-size: 16px;
+    }
+    .project-image .price {
+        font-size: 16px;
+    }
+    .client-heading h3 {
+        font-size: 30px;
+    }
+    .client-heading p {
+        font-size: 17px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .property-bg {
+        padding:45px 70px 0 20px;
+    }
+    .buyer-bg {
+        padding:45px 20px 0 70px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
